@@ -81,10 +81,11 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
-          
+          word-wrap: break-word;
   }
   .content ul li{
           text-align: center;
+     word-wrap: break-word;
   }
   .content ul li h2{
           font-size: 18px;
