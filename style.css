@@ -18,7 +18,7 @@ main{
 
 
 .top{
-  height: 25vh;
+  height: 35vh;
   background: url(images/pattern-bg-desktop.png) no-repeat top center/cover;
   padding: 1.75rem 0;
   display: flex;
@@ -26,7 +26,7 @@ main{
   flex-direction: column;
 }
   .form{
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     display: flex;
     align-items: center;
     flex-direction: column;
