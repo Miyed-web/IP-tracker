@@ -89,7 +89,7 @@ main{
   .content ul li h2{
           font-size: 18px;
           font-weight: 700;
-          text-wrap: break-word;
+          word-wrap: break-word;
           
   }
    .content ul li p{
