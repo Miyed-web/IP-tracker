@@ -118,4 +118,7 @@ main{
   .form{
           margin-bottom: 20px;
   }
+   .input-box{
+      width: min(380px, 70%);
+   }
 }
