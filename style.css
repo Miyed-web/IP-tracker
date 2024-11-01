@@ -1,0 +1,120 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   font-family: "Rubik", sans-serif;
+}
+
+:root{
+   --VeryDarkGray: hsl(0, 0%, 17%);
+   --DarkGray: hsl(0, 0%, 59%);
+
+}
+
+main{
+  min-height: 100vh;
+ }
+
+
+.top{
+  height: 25vh;
+  background: url(images/pattern-bg-desktop.png) no-repeat top center/cover;
+  padding: 1.75rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+  .form{
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+  }
+  .form h1{
+    color: #fff;
+    font-size: 22px;
+  }
+  .input-box{
+    width: min-max(85%,550px);
+    height: 50px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+  .input-box button{
+    height: 100%;
+    width: 50px;
+    border: none;
+    outline: none;
+    display: block;
+    background:#000;
+    border-radius: 0 15px 15px 0;
+    display: grid;
+    place-items: center;
+  }
+  .input-box button:hover{
+    background: var(--VeryDarkGray);
+  }
+  .form .input-box input {
+    height: 100%;
+    padding: 10px 15px;
+    border-radius: 15px 0 0 15px;
+    border: none;
+    outline: none;
+    background: #fff;
+    font-weight: 400;
+
+  }
+  .content{
+    width: 85%;
+    background: #fff;
+    position: relative;
+    z-index: 99;
+    padding: 25px;
+    border-radius: 15px;
+  }
+  .content ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+          
+  }
+  .content ul li{
+          text-align: center;
+  }
+  .content ul li h2{
+          font-size: 18px;
+          font-weight: 700;
+          text-wrap: break-word;
+          
+  }
+   .content ul li p{
+          font-size: 10px;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: var(--DarkGray);
+          margin-bottom: 12px;
+  } 
+#map{
+  height: 75vh;
+  z-index: 9;
+}
+
+
+@media screen and (max-width: 600px){
+  .top{
+    background: url(images/pattern-bg-mobile.png);
+    height: 40vh;
+  }
+  .content ul{
+          gap: 15px;
+          flex-direction: column;
+  }
+  .form{
+          margin-bottom: 20px;
+  }
+}
