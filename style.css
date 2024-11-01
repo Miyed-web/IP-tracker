@@ -14,19 +14,21 @@
 
 main{
   min-height: 100vh;
+  width: 100vw;
  }
 
 
 .top{
-  height: 35vh;
+  height: 25vh;
   background: url(images/pattern-bg-desktop.png) no-repeat top center/cover;
   padding: 1.75rem 0;
   display: flex;
   align-items: center;
   flex-direction: column;
+  
 }
   .form{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -37,7 +39,7 @@ main{
     font-size: 22px;
   }
   .input-box{
-    width: 80vw;
+    width: 40vw;
     height: 50px;
     display: flex;
     align-items: center ;
@@ -47,7 +49,7 @@ main{
   }
   .input-box button{
     height: 100%;
-    width: 50px;
+    width: 15%;
     border: none;
     outline: none;
     display: block;
@@ -61,6 +63,7 @@ main{
   }
   .form .input-box input {
     height: 100%;
+    width: 80%;
     padding: 10px 15px;
     border-radius: 15px 0 0 15px;
     border: none;
@@ -74,23 +77,22 @@ main{
     background: #fff;
     position: relative;
     z-index: 99;
-    padding: 35px;
+    padding: 25px;
     border-radius: 15px;
   }
   .content ul{
     display: flex;
     align-items: center;
     justify-content: space-around;
-          word-wrap: break-word;
+          
   }
   .content ul li{
           text-align: center;
-     word-wrap: break-word;
   }
   .content ul li h2{
           font-size: 18px;
           font-weight: 700;
-          word-wrap: break-word;
+          text-wrap: break-word;
           
   }
    .content ul li p{
@@ -117,8 +119,8 @@ main{
   }
   .form{
           margin-bottom: 20px;
+  } 
+  .input-box{
+          width: 85vw;
   }
-   .input-box{
-      width: 85vw;
-   }
 }
