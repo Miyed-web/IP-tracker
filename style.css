@@ -37,7 +37,7 @@ main{
     font-size: 22px;
   }
   .input-box{
-    width: minmax(70%,85%);
+    width: min(500px,70%);
     height: 50px;
     display: flex;
     align-items: center ;
