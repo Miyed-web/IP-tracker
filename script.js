@@ -5,8 +5,8 @@ const ipInfos = document.querySelectorAll("ul li h2")
 
 
 
-var map = L.map('map').setView([23.6850,
-90.3563], 13);
+var map = L.map('map').setView([25.811122894,
+88.461372375], 13);
 const locationIcon = L.icon({
     iconUrl: 'images/icon-location.svg',
     iconSize: [35, 45],
@@ -14,8 +14,8 @@ const locationIcon = L.icon({
 });
 
 
-const marker = L.marker([23.6850,
-90.3563],{icon: locationIcon}).addTo(map);
+const marker = L.marker([25.811122894,
+88.461372375],{icon: locationIcon}).addTo(map);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: false
 }).addTo(map);
